@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
+  <reporter-output>
+    <line>
+      <![CDATA[Browser Launched]]>
+    </line>
+    <line>
+      <![CDATA[maximize the window]]>
+    </line>
+    <line>
+      <![CDATA[Search for stainless work table products]]>
+    </line>
+  </reporter-output>
+  <suite started-at="2022-09-15T10:23:15 EDT" name="Suite" finished-at="2022-09-15T10:24:09 EDT" duration-ms="54884">
+    <groups>
+    </groups>
+    <test started-at="2022-09-15T10:23:15 EDT" name="Test" finished-at="2022-09-15T10:24:09 EDT" duration-ms="54884">
+      <class name="com.org.WebstaurantStore.AddProductToCartAndEmptyCart">
+        <test-method is-config="true" signature="testSetup()[pri:0, instance:com.org.WebstaurantStore.AddProductToCartAndEmptyCart@16ec5519]" started-at="2022-09-15T10:23:15 EDT" name="testSetup" finished-at="2022-09-15T10:23:16 EDT" duration-ms="1771" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[Browser Launched]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- testSetup -->
+        <test-method signature="addProductToCart()[pri:0, instance:com.org.WebstaurantStore.AddProductToCartAndEmptyCart@16ec5519]" started-at="2022-09-15T10:23:16 EDT" name="addProductToCart" finished-at="2022-09-15T10:24:09 EDT" duration-ms="53083" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[maximize the window]]>
+            </line>
+            <line>
+              <![CDATA[Search for stainless work table products]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- addProductToCart -->
+      </class> <!-- com.org.WebstaurantStore.AddProductToCartAndEmptyCart -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
+</testng-results>
