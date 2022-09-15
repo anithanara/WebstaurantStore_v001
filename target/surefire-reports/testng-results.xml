@@ -10,29 +10,145 @@
     <line>
       <![CDATA[Search for stainless work table products]]>
     </line>
+    <line>
+      <![CDATA[Checking products through pagination]]>
+    </line>
+    <line>
+      <![CDATA[Total number pages - 9]]>
+    </line>
+    <line>
+      <![CDATA[Product titles that does not contain Table]]>
+    </line>
+    <line>
+      <![CDATA[Steelton 30" x 36" 18-Gauge Stainless Steel Equipment Stand with Undershelf and Galvanized Legs]]>
+    </line>
+    <line>
+      <![CDATA[Steelton 30" x 24" 18-Gauge Stainless Steel Equipment Stand with Undershelf and Galvanized Legs]]>
+    </line>
+    <line>
+      <![CDATA[Steelton 30" x 48" 18-Gauge Stainless Steel Equipment Stand with Undershelf and Galvanized Legs]]>
+    </line>
+    <line>
+      <![CDATA[Steelton 30" x 60" 18-Gauge Stainless Steel Equipment Stand with Undershelf and Galvanized Legs]]>
+    </line>
+    <line>
+      <![CDATA[Steelton 30" x 72" 18-Gauge Stainless Steel Equipment Stand with Undershelf and Galvanized Legs]]>
+    </line>
+    <line>
+      <![CDATA[Regency 30" x 48" 16-Gauge Stainless Steel Equipment Stand with Galvanized Undershelf, 10" Plate Shelf, and 10" Stainless Steel Adjustable Work Surface]]>
+    </line>
+    <line>
+      <![CDATA[Regency 24" x 24" 16-Gauge Stainless Steel Equipment Stand with Galvanized Undershelf and 10" Stainless Steel Adjustable Work Surface]]>
+    </line>
+    <line>
+      <![CDATA[Regency 30" x 36" 16-Gauge Stainless Steel Equipment Stand with Galvanized Undershelf and 10" Stainless Steel Adjustable Work Surface]]>
+    </line>
+    <line>
+      <![CDATA[Regency 30" x 36" 16-Gauge Stainless Steel Equipment Stand with Galvanized Undershelf, 10" Plate Shelf, and 10" Stainless Steel Adjustable Work Surface]]>
+    </line>
+    <line>
+      <![CDATA[Regency 24" x 24" 16-Gauge Stainless Steel Equipment Stand with Galvanized Undershelf, 10" Plate Shelf, and 10" Stainless Steel Adjustable Work Surface]]>
+    </line>
+    <line>
+      <![CDATA[Regency 30" x 48" 16-Gauge Stainless Steel Equipment Stand with Galvanized Undershelf and 10" Stainless Steel Adjustable Work Surface]]>
+    </line>
+    <line>
+      <![CDATA[Metro MS1848-FSFS PrepMate MultiStation with Stainless Steel Shelving - 50" x 19 3/8" x 39 1/8"]]>
+    </line>
+    <line>
+      <![CDATA[Product added to the cart:Advance Tabco FMG-307 30" x 84" 16 Gauge Stainless Steel Commercial Work Table with Undershelf and 1 1/2" Backsplash
+ITEM NUMBER
+#109FMG307
+Better
+$1,113.75/Each
+Login for details]]>
+    </line>
+    <line>
+      <![CDATA[Product removed from the cart]]>
+    </line>
   </reporter-output>
-  <suite started-at="2022-09-15T10:23:15 EDT" name="Suite" finished-at="2022-09-15T10:24:09 EDT" duration-ms="54884">
+  <suite started-at="2022-09-15T16:28:27 EDT" name="Suite" finished-at="2022-09-15T16:29:18 EDT" duration-ms="51159">
     <groups>
     </groups>
-    <test started-at="2022-09-15T10:23:15 EDT" name="Test" finished-at="2022-09-15T10:24:09 EDT" duration-ms="54884">
+    <test started-at="2022-09-15T16:28:27 EDT" name="Test" finished-at="2022-09-15T16:29:18 EDT" duration-ms="51159">
       <class name="com.org.WebstaurantStore.AddProductToCartAndEmptyCart">
-        <test-method is-config="true" signature="testSetup()[pri:0, instance:com.org.WebstaurantStore.AddProductToCartAndEmptyCart@16ec5519]" started-at="2022-09-15T10:23:15 EDT" name="testSetup" finished-at="2022-09-15T10:23:16 EDT" duration-ms="1771" status="PASS">
+        <test-method is-config="true" signature="testSetup()[pri:0, instance:com.org.WebstaurantStore.AddProductToCartAndEmptyCart@57c758ac]" started-at="2022-09-15T16:28:27 EDT" name="testSetup" finished-at="2022-09-15T16:28:29 EDT" duration-ms="1857" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testSetup -->
+        <test-method signature="addProductToCart()[pri:0, instance:com.org.WebstaurantStore.AddProductToCartAndEmptyCart@57c758ac]" started-at="2022-09-15T16:28:29 EDT" name="addProductToCart" finished-at="2022-09-15T16:29:18 EDT" duration-ms="49060" status="PASS">
           <reporter-output>
             <line>
               <![CDATA[Browser Launched]]>
             </line>
-          </reporter-output>
-        </test-method> <!-- testSetup -->
-        <test-method signature="addProductToCart()[pri:0, instance:com.org.WebstaurantStore.AddProductToCartAndEmptyCart@16ec5519]" started-at="2022-09-15T10:23:16 EDT" name="addProductToCart" finished-at="2022-09-15T10:24:09 EDT" duration-ms="53083" status="PASS">
-          <reporter-output>
             <line>
               <![CDATA[maximize the window]]>
             </line>
             <line>
               <![CDATA[Search for stainless work table products]]>
             </line>
+            <line>
+              <![CDATA[Checking products through pagination]]>
+            </line>
+            <line>
+              <![CDATA[Total number pages - 9]]>
+            </line>
+            <line>
+              <![CDATA[Product titles that does not contain Table]]>
+            </line>
+            <line>
+              <![CDATA[Steelton 30" x 36" 18-Gauge Stainless Steel Equipment Stand with Undershelf and Galvanized Legs]]>
+            </line>
+            <line>
+              <![CDATA[Steelton 30" x 24" 18-Gauge Stainless Steel Equipment Stand with Undershelf and Galvanized Legs]]>
+            </line>
+            <line>
+              <![CDATA[Steelton 30" x 48" 18-Gauge Stainless Steel Equipment Stand with Undershelf and Galvanized Legs]]>
+            </line>
+            <line>
+              <![CDATA[Steelton 30" x 60" 18-Gauge Stainless Steel Equipment Stand with Undershelf and Galvanized Legs]]>
+            </line>
+            <line>
+              <![CDATA[Steelton 30" x 72" 18-Gauge Stainless Steel Equipment Stand with Undershelf and Galvanized Legs]]>
+            </line>
+            <line>
+              <![CDATA[Regency 30" x 48" 16-Gauge Stainless Steel Equipment Stand with Galvanized Undershelf, 10" Plate Shelf, and 10" Stainless Steel Adjustable Work Surface]]>
+            </line>
+            <line>
+              <![CDATA[Regency 24" x 24" 16-Gauge Stainless Steel Equipment Stand with Galvanized Undershelf and 10" Stainless Steel Adjustable Work Surface]]>
+            </line>
+            <line>
+              <![CDATA[Regency 30" x 36" 16-Gauge Stainless Steel Equipment Stand with Galvanized Undershelf and 10" Stainless Steel Adjustable Work Surface]]>
+            </line>
+            <line>
+              <![CDATA[Regency 30" x 36" 16-Gauge Stainless Steel Equipment Stand with Galvanized Undershelf, 10" Plate Shelf, and 10" Stainless Steel Adjustable Work Surface]]>
+            </line>
+            <line>
+              <![CDATA[Regency 24" x 24" 16-Gauge Stainless Steel Equipment Stand with Galvanized Undershelf, 10" Plate Shelf, and 10" Stainless Steel Adjustable Work Surface]]>
+            </line>
+            <line>
+              <![CDATA[Regency 30" x 48" 16-Gauge Stainless Steel Equipment Stand with Galvanized Undershelf and 10" Stainless Steel Adjustable Work Surface]]>
+            </line>
+            <line>
+              <![CDATA[Metro MS1848-FSFS PrepMate MultiStation with Stainless Steel Shelving - 50" x 19 3/8" x 39 1/8"]]>
+            </line>
+            <line>
+              <![CDATA[Product added to the cart:Advance Tabco FMG-307 30" x 84" 16 Gauge Stainless Steel Commercial Work Table with Undershelf and 1 1/2" Backsplash
+ITEM NUMBER
+#109FMG307
+Better
+$1,113.75/Each
+Login for details]]>
+            </line>
+            <line>
+              <![CDATA[Product removed from the cart]]>
+            </line>
           </reporter-output>
         </test-method> <!-- addProductToCart -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.org.WebstaurantStore.AddProductToCartAndEmptyCart@57c758ac]" started-at="2022-09-15T16:29:18 EDT" name="tearDown" finished-at="2022-09-15T16:29:18 EDT" duration-ms="194" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
       </class> <!-- com.org.WebstaurantStore.AddProductToCartAndEmptyCart -->
     </test> <!-- Test -->
   </suite> <!-- Suite -->
