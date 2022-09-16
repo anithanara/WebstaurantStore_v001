@@ -78,7 +78,7 @@ public class AddProductToCartAndEmptyCart {
 				WebElement lastProduct = driver.findElement(By.xpath("//*[@id='ProductBoxContainer'][last()]"));
 				System.out.println("last product in last page:"+lastProduct.getText());
 				
-				driver.findElement(By.xpath("//*[@id='product_listing']/div[60]/div[4]/form/div/div/input[2]")).click();
+				driver.findElement(By.xpath("//*[@id='product_listing']/div[59]/div[4]/form/div/div/input[2]")).click();
 				
 				Reporter.log("Product added to the cart:"+lastProduct.getText());
 				
