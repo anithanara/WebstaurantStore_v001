@@ -78,25 +78,59 @@ public class AddProductToCartAndEmptyCart {
 				WebElement lastProduct = driver.findElement(By.xpath("//*[@id='ProductBoxContainer'][last()]"));
 				System.out.println("last product in last page:"+lastProduct.getText());
 				
-				driver.findElement(By.xpath("//*[@id='product_listing']/div[59]/div[4]/form/div/div/input[2]")).click();
+				//click Add to Cart of the last product from the search page
+				driver.findElement(By.xpath("//*[@id='product_listing']/div[60]/div[4]/form/div/div/input[2]")).click();
 				
 				Reporter.log("Product added to the cart:"+lastProduct.getText());
 				
 				String subWindow = driver.getWindowHandle();
 				System.out.println("SubWindow"+ subWindow);
+								
 				driver.switchTo().window(subWindow);
 				Thread.sleep(1000);
 				
-				//String text = driver.findElement(By.xpath("//*[@id='td']/div[11]/div/div/footer/button[2]")).getText();
 				
-				driver.findElement(By.xpath("//*[@id='td']/div[11]/div/div/footer/button[2]")).click();
-				Thread.sleep(1000);
+					
+				//String text = driver.findElement(By.xpath("//button[contains(text(),'Add To Cart')]")).getText();
+				//System.out.println(text);
 				
-				driver.findElement(By.xpath("//*[@id='watnotif-wrapper']/div/p/div[2]/div[2]/a[1]")).click();
-				Thread.sleep(1000);
-				driver.findElement(By.xpath("//*[@id='main']/div[1]/div/div[1]/div/button")).click();
-				driver.findElement(By.xpath("//*[@id='td']/div[10]/div/div/div/footer/button[1]")).click();
-				Reporter.log("Product removed from the cart");
+				System.out.println("About to enter to the if condition");
+				Boolean viewCartElementExists = driver.findElements(By.xpath("//*[@id='watnotif-wrapper']/div/p/div[2]/div[2]/a[1]")).size() > 0;
+				Boolean addToCartElementExists = driver.findElements(By.xpath("//*[@id='td']/div[11]/div/div/footer/button[2]")).size() > 0;
+				System.out.println(viewCartElementExists);
+				System.out.println(addToCartElementExists);
+				if (viewCartElementExists)
+				{
+					if((driver.findElement(By.xpath("//*[@id='watnotif-wrapper']/div/p/div[2]/div[2]/a[1]")).getText()).equals("View Cart"))
+					{
+						
+						System.out.println("View cart loop");
+						driver.findElement(By.xpath("//*[@id='watnotif-wrapper']/div/p/div[2]/div[2]/a[1]")).click();
+						Thread.sleep(1000);
+						driver.findElement(By.xpath("//*[@id='main']/div[1]/div/div[1]/div/button")).click();
+						driver.findElement(By.xpath("//*[@id='td']/div[10]/div/div/div/footer/button[1]")).click();
+						Reporter.log("Product removed from the cart");
+					}
+
+				}
+				else if (addToCartElementExists)
+				{
+					if ((driver.findElement(By.xpath("//button[contains(text(),'Add To Cart')]")).getText()).equals("Add To Cart"))
+					
+					{
+						System.out.println("Add to cart loop");
+						
+						driver.findElement(By.xpath("//button[contains(text(),'Add To Cart')]")).click();//Add To Cart
+						
+						Thread.sleep(3000);
+						driver.findElement(By.xpath("//*[@id='watnotif-wrapper']/div/p/div[2]/div[2]/a[1]")).click();
+						Thread.sleep(3000);
+						driver.findElement(By.xpath("//*[@id='main']/div[1]/div/div[1]/div/button")).click();
+						driver.findElement(By.xpath("//*[@id='td']/div[10]/div/div/div/footer/button[1]")).click();
+						
+					}
+				}
+				
 			
 		}		
 				
