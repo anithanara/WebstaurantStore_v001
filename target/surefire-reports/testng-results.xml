@@ -67,16 +67,16 @@ Login for details]]>
       <![CDATA[Product removed from the cart]]>
     </line>
   </reporter-output>
-  <suite started-at="2022-09-16T20:41:58 EDT" name="Suite" finished-at="2022-09-16T20:42:40 EDT" duration-ms="41563">
+  <suite started-at="2022-09-16T22:39:04 EDT" name="Suite" finished-at="2022-09-16T22:39:55 EDT" duration-ms="50833">
     <groups>
     </groups>
-    <test started-at="2022-09-16T20:41:58 EDT" name="Test" finished-at="2022-09-16T20:42:40 EDT" duration-ms="41563">
+    <test started-at="2022-09-16T22:39:04 EDT" name="Test" finished-at="2022-09-16T22:39:55 EDT" duration-ms="50833">
       <class name="com.org.WebstaurantStore.AddProductToCartAndEmptyCart">
-        <test-method is-config="true" signature="testSetup()[pri:0, instance:com.org.WebstaurantStore.AddProductToCartAndEmptyCart@57c758ac]" started-at="2022-09-16T20:41:58 EDT" name="testSetup" finished-at="2022-09-16T20:42:00 EDT" duration-ms="1589" status="PASS">
+        <test-method is-config="true" signature="testSetup()[pri:0, instance:com.org.WebstaurantStore.AddProductToCartAndEmptyCart@57c758ac]" started-at="2022-09-16T22:39:04 EDT" name="testSetup" finished-at="2022-09-16T22:39:06 EDT" duration-ms="1940" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- testSetup -->
-        <test-method signature="addProductToCart()[pri:0, instance:com.org.WebstaurantStore.AddProductToCartAndEmptyCart@57c758ac]" started-at="2022-09-16T20:42:00 EDT" name="addProductToCart" finished-at="2022-09-16T20:42:39 EDT" duration-ms="39699" status="PASS">
+        <test-method signature="addProductToCart()[pri:0, instance:com.org.WebstaurantStore.AddProductToCartAndEmptyCart@57c758ac]" started-at="2022-09-16T22:39:06 EDT" name="addProductToCart" finished-at="2022-09-16T22:39:55 EDT" duration-ms="48618" status="PASS">
           <reporter-output>
             <line>
               <![CDATA[Browser Launched]]>
@@ -145,7 +145,7 @@ Login for details]]>
             </line>
           </reporter-output>
         </test-method> <!-- addProductToCart -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.org.WebstaurantStore.AddProductToCartAndEmptyCart@57c758ac]" started-at="2022-09-16T20:42:39 EDT" name="tearDown" finished-at="2022-09-16T20:42:40 EDT" duration-ms="245" status="PASS">
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.org.WebstaurantStore.AddProductToCartAndEmptyCart@57c758ac]" started-at="2022-09-16T22:39:55 EDT" name="tearDown" finished-at="2022-09-16T22:39:55 EDT" duration-ms="235" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
